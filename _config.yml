@@ -159,6 +159,10 @@ fancybox:
     js: js/plugins/fancybox.umd.js
 
 # mathjax 和 katex 用于显示数学公式，二者取其一
+mathjax:
+    enable: false
+    js: https://cdn.jsdelivr.net/npm/mathjax@4.0.0-beta.3/tex-mml-chtml.js
+
 katex:
     enable: true
     css: /js/plugins/katex/katex.min.css # https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
